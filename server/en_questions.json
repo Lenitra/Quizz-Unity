@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "answers": [
+            {
+                "text": "London",
+                "isCorrect": false
+            },
+            {
+                "text": "Berlin",
+                "isCorrect": false
+            },
+            {
+                "text": "Madrid",
+                "isCorrect": false
+            },
+            {
+                "text": "Paris",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Who painted the Mona Lisa?",
+        "answers": [
+            {
+                "text": "Leonardo da Vinci",
+                "isCorrect": true
+            },
+            {
+                "text": "Vincent van Gogh",
+                "isCorrect": false
+            },
+            {
+                "text": "Pablo Picasso",
+                "isCorrect": false
+            },
+            {
+                "text": "Claude Monet",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "What is the chemical symbol for water?",
+        "answers": [
+            {
+                "text": "H2O",
+                "isCorrect": true
+            },
+            {
+                "text": "CO2",
+                "isCorrect": false
+            },
+            {
+                "text": "O2",
+                "isCorrect": false
+            },
+            {
+                "text": "H2O2",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+            {
+                "text": "Mars",
+                "isCorrect": true
+            },
+            {
+                "text": "Jupiter",
+                "isCorrect": false
+            },
+            {
+                "text": "Venus",
+                "isCorrect": false
+            },
+            {
+                "text": "Saturn",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answers": [
+            {
+                "text": "William Shakespeare",
+                "isCorrect": true
+            },
+            {
+                "text": "Charles Dickens",
+                "isCorrect": false
+            },
+            {
+                "text": "Jane Austen",
+                "isCorrect": false
+            },
+            {
+                "text": "Mark Twain",
+                "isCorrect": false
+            }
+        ]
+    }
+]

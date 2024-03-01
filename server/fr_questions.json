@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "answers": {
+            "London": false,
+            "Paris": true,
+            "New York": false,
+            "Berlin": false
+        }
+    },
+    {
+        "id": 2,
+        "question": "Who painted the Mona Lisa?",
+        "answers": {
+            "Leonardo da Vinci": true,
+            "Pablo Picasso": false,
+            "Vincent van Gogh": false,
+            "Michelangelo": false
+        }
+    },
+    {
+        "id": 3,
+        "question": "What is the chemical symbol for water?",
+        "answers": {
+            "H2O": true,
+            "CO2": false,
+            "NaCl": false,
+            "O2": false
+        }
+    },
+    {
+        "id": 4,
+        "question": "Which planet is known as the Red Planet?",
+        "answers": {
+            "Mars": true,
+            "Venus": false,
+            "Jupiter": false,
+            "Saturn": false
+        }
+    },
+    {
+        "id": 5,
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answers": {
+            "William Shakespeare": true,
+            "Charles Dickens": false,
+            "Jane Austen": false,
+            "Mark Twain": false
+        }
+    }
+]
