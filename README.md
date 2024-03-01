@@ -8,15 +8,15 @@ Quiz Rush est un jeu de quiz où les joueurs peuvent tester leurs connaissances 
 
 **✅Mode Solo** : Les joueurs peuvent jouer à des quiz infinis. Un cumul de bonnes réponses permet de gagner des points. Et une mauvaise réponse fait perdre la moitié des points.
 
-**❌Mode Streamer** : Un mode de jeu multijoueur où un streamer peut créer une partie et inviter ses spectateurs à y participer via le chat ou via des sondages ou prédictions.
+**❌ Mode Streamer** : Un mode de jeu multijoueur où un streamer peut créer une partie et inviter ses spectateurs à y participer via le chat ou via des sondages ou prédictions.
 
-**❌Mode Défi** : Les joueurs peuvent défier leurs amis dans des quiz en temps réel.
+**❌ Mode Défi** : Les joueurs peuvent défier leurs amis dans des quiz en temps réel.
 
-### ❌ Monétisation :
+### Monétisation :
 
-**Publicités** : Les publicités facultatives permettent de ne pas perdre de points en cas de mauvaise réponse.
+**❌ Publicités** : Les publicités facultatives permettent de ne pas perdre de points en cas de mauvaise réponse.
 
-**Achats In-App** : Les joueurs peuvent acheter un pass permettant de ne pas perdre de points en cas de mauvaise réponse.
+**❌ Achats In-App** : Les joueurs peuvent acheter un pass permettant de ne pas perdre de points en cas de mauvaise réponse.
 
 
 ### Développement du Projet
