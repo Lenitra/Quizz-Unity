@@ -242,7 +242,7 @@ public class Solo : MonoBehaviour
         }
         else
         {
-            Debug.Log(www.error);
+            questionText.text = www.error;
         }
     }
 
@@ -251,6 +251,8 @@ public class Solo : MonoBehaviour
     IEnumerator InitializeGame()
     {
         questionText.text = "Prêt ?";
+        // questionText.text = ConfigReader.GetValue("serverAddress");
+        
         answer1Text.text = "3";
         answer2Text.text = "3";
         answer3Text.text = "3";
