@@ -9,7 +9,7 @@ public class ConfigReader
 
     static ConfigReader()
     {
-        string path = Path.Combine(Application.streamingAssetsPath, "config.json");
+        string path = Application.streamingAssetsPath+"/config.json";
         if (File.Exists(path))
         {
             string jsonString = File.ReadAllText(path);
