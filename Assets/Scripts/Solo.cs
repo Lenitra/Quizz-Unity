@@ -16,6 +16,7 @@ public class Solo : MonoBehaviour
     public Button answer4Button;
     public Slider timerSlider;
     public Button continueButton;
+    public TextMeshProUGUI scoreText;
     
     [Header("UI Plus")]
     // sprite pour les boutons
@@ -48,10 +49,21 @@ public class Solo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // if PlayerPrefs Score doesn't exist, create it
+        if (!PlayerPrefs.HasKey("score"))
+        {
+            PlayerPrefs.SetInt("score", 0);
+        } 
+        updateScore(PlayerPrefs.GetInt("score"));
         setupObjects();
         StartCoroutine(InitializeGame());
     }
 
+    void updateScore(int addToScore){
+        int score = int.Parse(scoreText.text.Split(' ')[2]) + addToScore;
+        scoreText.text = "Score : " + score.ToString();
+        PlayerPrefs.SetInt("score", score);
+    }
 
     // Update is called once per frame
     void Update()
@@ -96,8 +108,8 @@ public class Solo : MonoBehaviour
         button.GetComponent<Image>().sprite = buttonSpriteKO;
         // find the right answer and change its color
         goodAnswerButton.GetComponent<Image>().sprite = buttonSpriteOK;
-
         continueButton.gameObject.SetActive(true);
+        updateScore((int)(-PlayerPrefs.GetInt("score") / 2f));
     }
     public void btn_RightAnswer(GameObject button)
     {
@@ -109,6 +121,7 @@ public class Solo : MonoBehaviour
         // change la source de l'image du bouton
         button.GetComponent<Image>().sprite = buttonSpriteOK;
         continueButton.gameObject.SetActive(true);
+        updateScore(1);
     }
     #endregion
 
